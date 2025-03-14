@@ -1,0 +1,3 @@
+"""
+Reporting module initialization
+"""

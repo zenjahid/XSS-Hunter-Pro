@@ -1,0 +1,50 @@
+# XSS Hunter Pro Configuration
+
+scanner:
+  # Request timeout in seconds
+  timeout: 10
+
+  # Delay between requests in seconds
+  delay: 0.1
+
+  # Number of concurrent threads
+  threads: 5
+
+  # User agent string
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+
+  # HTTP methods to test ('get', 'post', or 'all')
+  methods: "all"
+
+  # Enable DOM XSS detection
+  use_dom: true
+
+  # Test for stored XSS vulnerabilities
+  test_stored: true
+
+  # Include blind XSS payloads
+  include_blind: true
+
+  # Enable WAF bypass techniques
+  waf_bypass: true
+
+  # Use polyglot XSS payloads
+  use_polyglot: true
+
+crawler:
+  # Maximum crawling depth
+  depth: 2
+
+  # Regex pattern to exclude URLs from crawling
+  exclude_pattern: "\\.(jpg|jpeg|png|gif|css|js|pdf|zip|tar|gz)$"
+
+reporting:
+  # Output report format ('txt', 'json', 'html', or 'all')
+  output_format: "all"
+
+proxy:
+  # Proxy URL (format: "http://host:port")
+  url: null
+
+  # Proxy authentication credentials (username:password)
+  auth: null
