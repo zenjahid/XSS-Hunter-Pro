@@ -140,7 +140,7 @@ This tool is intended for legal security testing with proper authorization. Unau
 
 MIT License
 
-Copyright (c) 2023 zenjahid
+Copyright (c) 2025 zenjahid
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
